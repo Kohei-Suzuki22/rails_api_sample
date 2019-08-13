@@ -40,7 +40,7 @@ class TodosController < ApplicationController
     params.permit(:title, :created_by)
   end
 
-  def set_todo
-    @todo = Todo.find(params[:id])
-  end
+  # def set_todo
+  #   @todo = Todo.find(params[:id])
+  # end
 end
